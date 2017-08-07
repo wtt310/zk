@@ -1,0 +1,143 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+header .nav-list {
+  width: 46%;
+  display: flex;
+  margin: 0 27%; }
+  header .nav-list li {
+    width: 50%;
+    padding: .1rem 0;
+    text-align: center;
+    font-size: .14rem; }
+  header .nav-list .bg1 {
+    color: #fa2e2e;
+    border-bottom: 2px solid #fa2e2e; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+  section .nav {
+    background: #f3f3f3;
+    height: .48rem;
+    position: relative; }
+    section .nav .nav-list1 {
+      width: 80%;
+      position: absolute;
+      left: 10%;
+      top: .1rem;
+      display: flex;
+      border-radius: 5px;
+      border: 1px solid #d4d2d2; }
+      section .nav .nav-list1 li {
+        flex: 1;
+        background: #fff;
+        border-left: 1px solid #d4d2d2;
+        text-align: center;
+        padding: .05rem 0;
+        font-size: .14rem; }
+        section .nav .nav-list1 li:nth-child(1) {
+          border-left: none;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px; }
+        section .nav .nav-list1 li:nth-child(3) {
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px; }
+      section .nav .nav-list1 .bg2 {
+        color: #fff;
+        background: #fa2e2e; }
+  section .nav-list2 {
+    display: flex; }
+    section .nav-list2 li {
+      flex: 1;
+      text-align: center;
+      padding: .1rem 0; }
+      section .nav-list2 li i {
+        font-size: .16rem; }
+      section .nav-list2 li:last-child {
+        flex: .6; }
+  section .xin {
+    overflow: hidden; }
+    section .xin .xin-con {
+      display: flex;
+      flex-direction: column; }
+      section .xin .xin-con .item {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: .1rem 5%;
+        border-bottom: 1px solid #eee; }
+        section .xin .xin-con .item .top {
+          position: relative;
+          margin: .1rem 0; }
+          section .xin .xin-con .item .top i {
+            position: absolute;
+            left: .05rem;
+            top: 0;
+            font-size: .18rem;
+            color: #f3f3f3; }
+          section .xin .xin-con .item .top h3 {
+            margin-left: .3rem;
+            font-size: .14rem; }
+          section .xin .xin-con .item .top span {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: .2rem;
+            line-height: .2rem;
+            border-radius: .1rem;
+            border: 1px solid #57c35a;
+            color: #57c35a;
+            padding: 0 .05rem; }
+          section .xin .xin-con .item .top .chu {
+            right: 18%; }
+          section .xin .xin-con .item .top .chu1 {
+            color: #f3bb4c;
+            border: 1px solid #f3bb4c; }
+        section .xin .xin-con .item .bt {
+          display: flex;
+          position: relative; }
+          section .xin .xin-con .item .bt dl {
+            flex: 1;
+            margin: .1rem 0;
+            text-align: center;
+            border-left: 1px solid #eee; }
+            section .xin .xin-con .item .bt dl dt {
+              margin-bottom: .05rem; }
+            section .xin .xin-con .item .bt dl:first-child {
+              border-left: none; }
+              section .xin .xin-con .item .bt dl:first-child dt {
+                color: #1aa4ed; }
+          section .xin .xin-con .item .bt b {
+            position: absolute;
+            right: -.1rem;
+            top: 8%;
+            font-size: .2rem;
+            color: #ccc; }
+
+footer {
+  height: .45rem; }
+  footer .ft-list {
+    display: flex; }
+    footer .ft-list li {
+      width: 25%;
+      text-align: center; }
+      footer .ft-list li a {
+        display: flex;
+        flex-direction: column; }
+        footer .ft-list li a i {
+          font-size: .2rem;
+          line-height: .28rem;
+          color: #dadadc; }
+    footer .ft-list .bg a {
+      color: #fa2e2e; }
+      footer .ft-list .bg a i {
+        color: #fa2e2e; }
+
+/*# sourceMappingURL=style.css.map */
